@@ -1,0 +1,6 @@
+env/
+venv/
+*.zip
+__pycache__/
+lib/
+Scripts/

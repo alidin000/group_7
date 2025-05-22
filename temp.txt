@@ -1,0 +1,1033 @@
+
+root
+.
+dirs
+['sabak3', 'sabak_10', 'sabak_11', 'sabak_12', 'sabak_13', 'sabak_14', 'sabak_4', 'sabak_5', 'sabak_6', 'sabak_7', 'sabak_8', 'sabak_9']
+files
+['main.py', 'sabak_10.zip', 'sabak_11.zip', 'sabak_13.zip', 'sabak_14.zip', 'sabak_8.zip', 'sabak_9.zip', 'temp.txt']
+root
+.\sabak3
+dirs
+[]
+files
+['main.py']
+root
+.\sabak_10
+dirs
+['menin_packagim', 'OOP']
+files
+['main.py', 'main2.py']
+root
+.\sabak_10\menin_packagim
+dirs
+['__pycache__']
+files
+['temp.py', '__init__.py']
+root
+.\sabak_10\menin_packagim\__pycache__
+dirs
+[]
+files
+['temp.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_10\OOP
+dirs
+[]
+files
+['main3.py']
+root
+.\sabak_11
+dirs
+[]
+files
+['main.py']
+root
+.\sabak_12
+dirs
+[]
+files
+['main.py']
+root
+.\sabak_13
+dirs
+['my_exceptions']
+files
+['exercise.py', 'main.py']
+root
+.\sabak_13\my_exceptions
+dirs
+['__pycache__']
+files
+['myexceptions.py', '__init__.py']
+root
+.\sabak_13\my_exceptions\__pycache__
+dirs
+[]
+files
+['myexceptions.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_14
+dirs
+['functions']
+files
+['example.txt', 'example_2.txt', 'example_3.txt', 'login.py', 'main.py', 'passwords.txt', 't.txt']
+root
+.\sabak_14\functions
+dirs
+[]
+files
+['functions.py', '__init__.py']
+root
+.\sabak_4
+dirs
+[]
+files
+['main.py']
+root
+.\sabak_5
+dirs
+[]
+files
+['main.py', 'main2.py']
+root
+.\sabak_6
+dirs
+[]
+files
+['main.py']
+root
+.\sabak_7
+dirs
+[]
+files
+['main.py']
+root
+.\sabak_8
+dirs
+['__pycache__']
+files
+['calculator.py', 'main.py', 'python_7_gruppa.py', 'test.txt']
+root
+.\sabak_8\__pycache__
+dirs
+[]
+files
+['calculator.cpython-312.pyc']
+root
+.\sabak_9
+dirs
+['Include', 'Lib', 'math_2', 'my_package', 'Scripts']
+files
+['main.py', 'pyvenv.cfg']
+root
+.\sabak_9\Include
+dirs
+[]
+files
+[]
+root
+.\sabak_9\Lib
+dirs
+['site-packages']
+files
+[]
+root
+.\sabak_9\Lib\site-packages
+dirs
+['certifi', 'certifi-2025.1.31.dist-info', 'charset_normalizer', 'charset_normalizer-3.4.1.dist-info', 'idna', 'idna-3.10.dist-info', 'pip', 'pip-24.0.dist-info', 'requests', 'requests-2.32.3.dist-info', 'urllib3', 'urllib3-2.4.0.dist-info']
+files
+[]
+root
+.\sabak_9\Lib\site-packages\certifi
+dirs
+['__pycache__']
+files
+['cacert.pem', 'core.py', 'py.typed', '__init__.py', '__main__.py']
+root
+.\sabak_9\Lib\site-packages\certifi\__pycache__
+dirs
+[]
+files
+['core.cpython-312.pyc', '__init__.cpython-312.pyc', '__main__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\certifi-2025.1.31.dist-info
+dirs
+[]
+files
+['INSTALLER', 'LICENSE', 'METADATA', 'RECORD', 'top_level.txt', 'WHEEL']
+root
+.\sabak_9\Lib\site-packages\charset_normalizer
+dirs
+['cli', '__pycache__']
+files
+['api.py', 'cd.py', 'constant.py', 'legacy.py', 'md.cp312-win_amd64.pyd', 'md.py', 'md__mypyc.cp312-win_amd64.pyd', 'models.py', 'py.typed', 'utils.py', 'version.py', '__init__.py', '__main__.py']
+root
+.\sabak_9\Lib\site-packages\charset_normalizer\cli
+dirs
+['__pycache__']
+files
+['__init__.py', '__main__.py']
+root
+.\sabak_9\Lib\site-packages\charset_normalizer\cli\__pycache__
+dirs
+[]
+files
+['__init__.cpython-312.pyc', '__main__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\charset_normalizer\__pycache__
+dirs
+[]
+files
+['api.cpython-312.pyc', 'cd.cpython-312.pyc', 'constant.cpython-312.pyc', 'legacy.cpython-312.pyc', 'md.cpython-312.pyc', 'models.cpython-312.pyc', 'utils.cpython-312.pyc', 'version.cpython-312.pyc', '__init__.cpython-312.pyc', '__main__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\charset_normalizer-3.4.1.dist-info
+dirs
+[]
+files
+['entry_points.txt', 'INSTALLER', 'LICENSE', 'METADATA', 'RECORD', 'top_level.txt', 'WHEEL']
+root
+.\sabak_9\Lib\site-packages\idna
+dirs
+['__pycache__']
+files
+['codec.py', 'compat.py', 'core.py', 'idnadata.py', 'intranges.py', 'package_data.py', 'py.typed', 'uts46data.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\idna\__pycache__
+dirs
+[]
+files
+['codec.cpython-312.pyc', 'compat.cpython-312.pyc', 'core.cpython-312.pyc', 'idnadata.cpython-312.pyc', 'intranges.cpython-312.pyc', 'package_data.cpython-312.pyc', 'uts46data.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\idna-3.10.dist-info
+dirs
+[]
+files
+['INSTALLER', 'LICENSE.md', 'METADATA', 'RECORD', 'WHEEL']
+root
+.\sabak_9\Lib\site-packages\pip
+dirs
+['_internal', '_vendor', '__pycache__']
+files
+['py.typed', '__init__.py', '__main__.py', '__pip-runner__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_internal
+dirs
+['cli', 'commands', 'distributions', 'index', 'locations', 'metadata', 'models', 'network', 'operations', 'req', 'resolution', 'utils', 'vcs', '__pycache__']
+files
+['build_env.py', 'cache.py', 'configuration.py', 'exceptions.py', 'main.py', 'pyproject.py', 'self_outdated_check.py', 'wheel_builder.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_internal\cli
+dirs
+['__pycache__']
+files
+['autocompletion.py', 'base_command.py', 'cmdoptions.py', 'command_context.py', 'main.py', 'main_parser.py', 'parser.py', 'progress_bars.py', 'req_command.py', 'spinners.py', 'status_codes.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_internal\cli\__pycache__
+dirs
+[]
+files
+['autocompletion.cpython-312.pyc', 'base_command.cpython-312.pyc', 'cmdoptions.cpython-312.pyc', 'command_context.cpython-312.pyc', 'main.cpython-312.pyc', 'main_parser.cpython-312.pyc', 'parser.cpython-312.pyc', 'progress_bars.cpython-312.pyc', 'req_command.cpython-312.pyc', 'spinners.cpython-312.pyc', 'status_codes.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_internal\commands
+dirs
+['__pycache__']
+files
+['cache.py', 'check.py', 'completion.py', 'configuration.py', 'debug.py', 'download.py', 'freeze.py', 'hash.py', 'help.py', 'index.py', 'inspect.py', 'install.py', 'list.py', 'search.py', 'show.py', 'uninstall.py', 'wheel.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_internal\commands\__pycache__
+dirs
+[]
+files
+['cache.cpython-312.pyc', 'check.cpython-312.pyc', 'completion.cpython-312.pyc', 'configuration.cpython-312.pyc', 'debug.cpython-312.pyc', 'download.cpython-312.pyc', 'freeze.cpython-312.pyc', 'hash.cpython-312.pyc', 'help.cpython-312.pyc', 'index.cpython-312.pyc', 'inspect.cpython-312.pyc', 'install.cpython-312.pyc', 'list.cpython-312.pyc', 'search.cpython-312.pyc', 'show.cpython-312.pyc', 'uninstall.cpython-312.pyc', 'wheel.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_internal\distributions
+dirs
+['__pycache__']
+files
+['base.py', 'installed.py', 'sdist.py', 'wheel.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_internal\distributions\__pycache__
+dirs
+[]
+files
+['base.cpython-312.pyc', 'installed.cpython-312.pyc', 'sdist.cpython-312.pyc', 'wheel.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_internal\index
+dirs
+['__pycache__']
+files
+['collector.py', 'package_finder.py', 'sources.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_internal\index\__pycache__
+dirs
+[]
+files
+['collector.cpython-312.pyc', 'package_finder.cpython-312.pyc', 'sources.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_internal\locations
+dirs
+['__pycache__']
+files
+['base.py', '_distutils.py', '_sysconfig.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_internal\locations\__pycache__
+dirs
+[]
+files
+['base.cpython-312.pyc', '_distutils.cpython-312.pyc', '_sysconfig.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_internal\metadata
+dirs
+['importlib', '__pycache__']
+files
+['base.py', 'pkg_resources.py', '_json.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_internal\metadata\importlib
+dirs
+['__pycache__']
+files
+['_compat.py', '_dists.py', '_envs.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_internal\metadata\importlib\__pycache__
+dirs
+[]
+files
+['_compat.cpython-312.pyc', '_dists.cpython-312.pyc', '_envs.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_internal\metadata\__pycache__
+dirs
+[]
+files
+['base.cpython-312.pyc', 'pkg_resources.cpython-312.pyc', '_json.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_internal\models
+dirs
+['__pycache__']
+files
+['candidate.py', 'direct_url.py', 'format_control.py', 'index.py', 'installation_report.py', 'link.py', 'scheme.py', 'search_scope.py', 'selection_prefs.py', 'target_python.py', 'wheel.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_internal\models\__pycache__
+dirs
+[]
+files
+['candidate.cpython-312.pyc', 'direct_url.cpython-312.pyc', 'format_control.cpython-312.pyc', 'index.cpython-312.pyc', 'installation_report.cpython-312.pyc', 'link.cpython-312.pyc', 'scheme.cpython-312.pyc', 'search_scope.cpython-312.pyc', 'selection_prefs.cpython-312.pyc', 'target_python.cpython-312.pyc', 'wheel.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_internal\network
+dirs
+['__pycache__']
+files
+['auth.py', 'cache.py', 'download.py', 'lazy_wheel.py', 'session.py', 'utils.py', 'xmlrpc.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_internal\network\__pycache__
+dirs
+[]
+files
+['auth.cpython-312.pyc', 'cache.cpython-312.pyc', 'download.cpython-312.pyc', 'lazy_wheel.cpython-312.pyc', 'session.cpython-312.pyc', 'utils.cpython-312.pyc', 'xmlrpc.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_internal\operations
+dirs
+['build', 'install', '__pycache__']
+files
+['check.py', 'freeze.py', 'prepare.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_internal\operations\build
+dirs
+['__pycache__']
+files
+['build_tracker.py', 'metadata.py', 'metadata_editable.py', 'metadata_legacy.py', 'wheel.py', 'wheel_editable.py', 'wheel_legacy.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_internal\operations\build\__pycache__
+dirs
+[]
+files
+['build_tracker.cpython-312.pyc', 'metadata.cpython-312.pyc', 'metadata_editable.cpython-312.pyc', 'metadata_legacy.cpython-312.pyc', 'wheel.cpython-312.pyc', 'wheel_editable.cpython-312.pyc', 'wheel_legacy.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_internal\operations\install
+dirs
+['__pycache__']
+files
+['editable_legacy.py', 'wheel.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_internal\operations\install\__pycache__
+dirs
+[]
+files
+['editable_legacy.cpython-312.pyc', 'wheel.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_internal\operations\__pycache__
+dirs
+[]
+files
+['check.cpython-312.pyc', 'freeze.cpython-312.pyc', 'prepare.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_internal\req
+dirs
+['__pycache__']
+files
+['constructors.py', 'req_file.py', 'req_install.py', 'req_set.py', 'req_uninstall.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_internal\req\__pycache__
+dirs
+[]
+files
+['constructors.cpython-312.pyc', 'req_file.cpython-312.pyc', 'req_install.cpython-312.pyc', 'req_set.cpython-312.pyc', 'req_uninstall.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_internal\resolution
+dirs
+['legacy', 'resolvelib', '__pycache__']
+files
+['base.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_internal\resolution\legacy
+dirs
+['__pycache__']
+files
+['resolver.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_internal\resolution\legacy\__pycache__
+dirs
+[]
+files
+['resolver.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_internal\resolution\resolvelib
+dirs
+['__pycache__']
+files
+['base.py', 'candidates.py', 'factory.py', 'found_candidates.py', 'provider.py', 'reporter.py', 'requirements.py', 'resolver.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_internal\resolution\resolvelib\__pycache__
+dirs
+[]
+files
+['base.cpython-312.pyc', 'candidates.cpython-312.pyc', 'factory.cpython-312.pyc', 'found_candidates.cpython-312.pyc', 'provider.cpython-312.pyc', 'reporter.cpython-312.pyc', 'requirements.cpython-312.pyc', 'resolver.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_internal\resolution\__pycache__
+dirs
+[]
+files
+['base.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_internal\utils
+dirs
+['__pycache__']
+files
+['appdirs.py', 'compat.py', 'compatibility_tags.py', 'datetime.py', 'deprecation.py', 'direct_url_helpers.py', 'egg_link.py', 'encoding.py', 'entrypoints.py', 'filesystem.py', 'filetypes.py', 'glibc.py', 'hashes.py', 'logging.py', 'misc.py', 'models.py', 'packaging.py', 'setuptools_build.py', 'subprocess.py', 'temp_dir.py', 'unpacking.py', 'urls.py', 'virtualenv.py', 'wheel.py', '_jaraco_text.py', '_log.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_internal\utils\__pycache__
+dirs
+[]
+files
+['appdirs.cpython-312.pyc', 'compat.cpython-312.pyc', 'compatibility_tags.cpython-312.pyc', 'datetime.cpython-312.pyc', 'deprecation.cpython-312.pyc', 'direct_url_helpers.cpython-312.pyc', 'egg_link.cpython-312.pyc', 'encoding.cpython-312.pyc', 'entrypoints.cpython-312.pyc', 'filesystem.cpython-312.pyc', 'filetypes.cpython-312.pyc', 'glibc.cpython-312.pyc', 'hashes.cpython-312.pyc', 'logging.cpython-312.pyc', 'misc.cpython-312.pyc', 'models.cpython-312.pyc', 'packaging.cpython-312.pyc', 'setuptools_build.cpython-312.pyc', 'subprocess.cpython-312.pyc', 'temp_dir.cpython-312.pyc', 'unpacking.cpython-312.pyc', 'urls.cpython-312.pyc', 'virtualenv.cpython-312.pyc', 'wheel.cpython-312.pyc', '_jaraco_text.cpython-312.pyc', '_log.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_internal\vcs
+dirs
+['__pycache__']
+files
+['bazaar.py', 'git.py', 'mercurial.py', 'subversion.py', 'versioncontrol.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_internal\vcs\__pycache__
+dirs
+[]
+files
+['bazaar.cpython-312.pyc', 'git.cpython-312.pyc', 'mercurial.cpython-312.pyc', 'subversion.cpython-312.pyc', 'versioncontrol.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_internal\__pycache__
+dirs
+[]
+files
+['build_env.cpython-312.pyc', 'cache.cpython-312.pyc', 'configuration.cpython-312.pyc', 'exceptions.cpython-312.pyc', 'main.cpython-312.pyc', 'pyproject.cpython-312.pyc', 'self_outdated_check.cpython-312.pyc', 'wheel_builder.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor
+dirs
+['cachecontrol', 'certifi', 'chardet', 'colorama', 'distlib', 'distro', 'idna', 'msgpack', 'packaging', 'pkg_resources', 'platformdirs', 'pygments', 'pyparsing', 'pyproject_hooks', 'requests', 'resolvelib', 'rich', 'tenacity', 'tomli', 'truststore', 'urllib3', 'webencodings', '__pycache__']
+files
+['six.py', 'typing_extensions.py', 'vendor.txt', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\cachecontrol
+dirs
+['caches', '__pycache__']
+files
+['adapter.py', 'cache.py', 'controller.py', 'filewrapper.py', 'heuristics.py', 'py.typed', 'serialize.py', 'wrapper.py', '_cmd.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\cachecontrol\caches
+dirs
+['__pycache__']
+files
+['file_cache.py', 'redis_cache.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\cachecontrol\caches\__pycache__
+dirs
+[]
+files
+['file_cache.cpython-312.pyc', 'redis_cache.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\cachecontrol\__pycache__
+dirs
+[]
+files
+['adapter.cpython-312.pyc', 'cache.cpython-312.pyc', 'controller.cpython-312.pyc', 'filewrapper.cpython-312.pyc', 'heuristics.cpython-312.pyc', 'serialize.cpython-312.pyc', 'wrapper.cpython-312.pyc', '_cmd.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\certifi
+dirs
+['__pycache__']
+files
+['cacert.pem', 'core.py', 'py.typed', '__init__.py', '__main__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\certifi\__pycache__
+dirs
+[]
+files
+['core.cpython-312.pyc', '__init__.cpython-312.pyc', '__main__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\chardet
+dirs
+['cli', 'metadata', '__pycache__']
+files
+['big5freq.py', 'big5prober.py', 'chardistribution.py', 'charsetgroupprober.py', 'charsetprober.py', 'codingstatemachine.py', 'codingstatemachinedict.py', 'cp949prober.py', 'enums.py', 'escprober.py', 'escsm.py', 'eucjpprober.py', 'euckrfreq.py', 'euckrprober.py', 'euctwfreq.py', 'euctwprober.py', 'gb2312freq.py', 'gb2312prober.py', 'hebrewprober.py', 'jisfreq.py', 'johabfreq.py', 'johabprober.py', 'jpcntx.py', 'langbulgarianmodel.py', 'langgreekmodel.py', 'langhebrewmodel.py', 'langhungarianmodel.py', 'langrussianmodel.py', 'langthaimodel.py', 'langturkishmodel.py', 'latin1prober.py', 'macromanprober.py', 'mbcharsetprober.py', 'mbcsgroupprober.py', 'mbcssm.py', 'py.typed', 'resultdict.py', 'sbcharsetprober.py', 'sbcsgroupprober.py', 'sjisprober.py', 'universaldetector.py', 'utf1632prober.py', 'utf8prober.py', 'version.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\chardet\cli
+dirs
+['__pycache__']
+files
+['chardetect.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\chardet\cli\__pycache__
+dirs
+[]
+files
+['chardetect.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\chardet\metadata
+dirs
+['__pycache__']
+files
+['languages.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\chardet\metadata\__pycache__
+dirs
+[]
+files
+['languages.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\chardet\__pycache__
+dirs
+[]
+files
+['big5freq.cpython-312.pyc', 'big5prober.cpython-312.pyc', 'chardistribution.cpython-312.pyc', 'charsetgroupprober.cpython-312.pyc', 'charsetprober.cpython-312.pyc', 'codingstatemachine.cpython-312.pyc', 'codingstatemachinedict.cpython-312.pyc', 'cp949prober.cpython-312.pyc', 'enums.cpython-312.pyc', 'escprober.cpython-312.pyc', 'escsm.cpython-312.pyc', 'eucjpprober.cpython-312.pyc', 'euckrfreq.cpython-312.pyc', 'euckrprober.cpython-312.pyc', 'euctwfreq.cpython-312.pyc', 'euctwprober.cpython-312.pyc', 'gb2312freq.cpython-312.pyc', 'gb2312prober.cpython-312.pyc', 'hebrewprober.cpython-312.pyc', 'jisfreq.cpython-312.pyc', 'johabfreq.cpython-312.pyc', 'johabprober.cpython-312.pyc', 'jpcntx.cpython-312.pyc', 'langbulgarianmodel.cpython-312.pyc', 'langgreekmodel.cpython-312.pyc', 'langhebrewmodel.cpython-312.pyc', 'langhungarianmodel.cpython-312.pyc', 'langrussianmodel.cpython-312.pyc', 'langthaimodel.cpython-312.pyc', 'langturkishmodel.cpython-312.pyc', 'latin1prober.cpython-312.pyc', 'macromanprober.cpython-312.pyc', 'mbcharsetprober.cpython-312.pyc', 'mbcsgroupprober.cpython-312.pyc', 'mbcssm.cpython-312.pyc', 'resultdict.cpython-312.pyc', 'sbcharsetprober.cpython-312.pyc', 'sbcsgroupprober.cpython-312.pyc', 'sjisprober.cpython-312.pyc', 'universaldetector.cpython-312.pyc', 'utf1632prober.cpython-312.pyc', 'utf8prober.cpython-312.pyc', 'version.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\colorama
+dirs
+['tests', '__pycache__']
+files
+['ansi.py', 'ansitowin32.py', 'initialise.py', 'win32.py', 'winterm.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\colorama\tests
+dirs
+['__pycache__']
+files
+['ansitowin32_test.py', 'ansi_test.py', 'initialise_test.py', 'isatty_test.py', 'utils.py', 'winterm_test.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\colorama\tests\__pycache__
+dirs
+[]
+files
+['ansitowin32_test.cpython-312.pyc', 'ansi_test.cpython-312.pyc', 'initialise_test.cpython-312.pyc', 'isatty_test.cpython-312.pyc', 'utils.cpython-312.pyc', 'winterm_test.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\colorama\__pycache__
+dirs
+[]
+files
+['ansi.cpython-312.pyc', 'ansitowin32.cpython-312.pyc', 'initialise.cpython-312.pyc', 'win32.cpython-312.pyc', 'winterm.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\distlib
+dirs
+['__pycache__']
+files
+['compat.py', 'database.py', 'index.py', 'locators.py', 'manifest.py', 'markers.py', 'metadata.py', 'resources.py', 'scripts.py', 't32.exe', 't64-arm.exe', 't64.exe', 'util.py', 'version.py', 'w32.exe', 'w64-arm.exe', 'w64.exe', 'wheel.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\distlib\__pycache__
+dirs
+[]
+files
+['compat.cpython-312.pyc', 'database.cpython-312.pyc', 'index.cpython-312.pyc', 'locators.cpython-312.pyc', 'manifest.cpython-312.pyc', 'markers.cpython-312.pyc', 'metadata.cpython-312.pyc', 'resources.cpython-312.pyc', 'scripts.cpython-312.pyc', 'util.cpython-312.pyc', 'version.cpython-312.pyc', 'wheel.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\distro
+dirs
+['__pycache__']
+files
+['distro.py', 'py.typed', '__init__.py', '__main__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\distro\__pycache__
+dirs
+[]
+files
+['distro.cpython-312.pyc', '__init__.cpython-312.pyc', '__main__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\idna
+dirs
+['__pycache__']
+files
+['codec.py', 'compat.py', 'core.py', 'idnadata.py', 'intranges.py', 'package_data.py', 'py.typed', 'uts46data.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\idna\__pycache__
+dirs
+[]
+files
+['codec.cpython-312.pyc', 'compat.cpython-312.pyc', 'core.cpython-312.pyc', 'idnadata.cpython-312.pyc', 'intranges.cpython-312.pyc', 'package_data.cpython-312.pyc', 'uts46data.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\msgpack
+dirs
+['__pycache__']
+files
+['exceptions.py', 'ext.py', 'fallback.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\msgpack\__pycache__
+dirs
+[]
+files
+['exceptions.cpython-312.pyc', 'ext.cpython-312.pyc', 'fallback.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\packaging
+dirs
+['__pycache__']
+files
+['markers.py', 'py.typed', 'requirements.py', 'specifiers.py', 'tags.py', 'utils.py', 'version.py', '_manylinux.py', '_musllinux.py', '_structures.py', '__about__.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\packaging\__pycache__
+dirs
+[]
+files
+['markers.cpython-312.pyc', 'requirements.cpython-312.pyc', 'specifiers.cpython-312.pyc', 'tags.cpython-312.pyc', 'utils.cpython-312.pyc', 'version.cpython-312.pyc', '_manylinux.cpython-312.pyc', '_musllinux.cpython-312.pyc', '_structures.cpython-312.pyc', '__about__.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\pkg_resources
+dirs
+['__pycache__']
+files
+['__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\pkg_resources\__pycache__
+dirs
+[]
+files
+['__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\platformdirs
+dirs
+['__pycache__']
+files
+['android.py', 'api.py', 'macos.py', 'py.typed', 'unix.py', 'version.py', 'windows.py', '__init__.py', '__main__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\platformdirs\__pycache__
+dirs
+[]
+files
+['android.cpython-312.pyc', 'api.cpython-312.pyc', 'macos.cpython-312.pyc', 'unix.cpython-312.pyc', 'version.cpython-312.pyc', 'windows.cpython-312.pyc', '__init__.cpython-312.pyc', '__main__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\pygments
+dirs
+['filters', 'formatters', 'lexers', 'styles', '__pycache__']
+files
+['cmdline.py', 'console.py', 'filter.py', 'formatter.py', 'lexer.py', 'modeline.py', 'plugin.py', 'regexopt.py', 'scanner.py', 'sphinxext.py', 'style.py', 'token.py', 'unistring.py', 'util.py', '__init__.py', '__main__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\pygments\filters
+dirs
+['__pycache__']
+files
+['__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\pygments\filters\__pycache__
+dirs
+[]
+files
+['__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\pygments\formatters
+dirs
+['__pycache__']
+files
+['bbcode.py', 'groff.py', 'html.py', 'img.py', 'irc.py', 'latex.py', 'other.py', 'pangomarkup.py', 'rtf.py', 'svg.py', 'terminal.py', 'terminal256.py', '_mapping.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\pygments\formatters\__pycache__
+dirs
+[]
+files
+['bbcode.cpython-312.pyc', 'groff.cpython-312.pyc', 'html.cpython-312.pyc', 'img.cpython-312.pyc', 'irc.cpython-312.pyc', 'latex.cpython-312.pyc', 'other.cpython-312.pyc', 'pangomarkup.cpython-312.pyc', 'rtf.cpython-312.pyc', 'svg.cpython-312.pyc', 'terminal.cpython-312.pyc', 'terminal256.cpython-312.pyc', '_mapping.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\pygments\lexers
+dirs
+['__pycache__']
+files
+['python.py', '_mapping.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\pygments\lexers\__pycache__
+dirs
+[]
+files
+['python.cpython-312.pyc', '_mapping.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\pygments\styles
+dirs
+['__pycache__']
+files
+['__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\pygments\styles\__pycache__
+dirs
+[]
+files
+['__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\pygments\__pycache__
+dirs
+[]
+files
+['cmdline.cpython-312.pyc', 'console.cpython-312.pyc', 'filter.cpython-312.pyc', 'formatter.cpython-312.pyc', 'lexer.cpython-312.pyc', 'modeline.cpython-312.pyc', 'plugin.cpython-312.pyc', 'regexopt.cpython-312.pyc', 'scanner.cpython-312.pyc', 'sphinxext.cpython-312.pyc', 'style.cpython-312.pyc', 'token.cpython-312.pyc', 'unistring.cpython-312.pyc', 'util.cpython-312.pyc', '__init__.cpython-312.pyc', '__main__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\pyparsing
+dirs
+['diagram', '__pycache__']
+files
+['actions.py', 'common.py', 'core.py', 'exceptions.py', 'helpers.py', 'py.typed', 'results.py', 'testing.py', 'unicode.py', 'util.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\pyparsing\diagram
+dirs
+['__pycache__']
+files
+['__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\pyparsing\diagram\__pycache__
+dirs
+[]
+files
+['__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\pyparsing\__pycache__
+dirs
+[]
+files
+['actions.cpython-312.pyc', 'common.cpython-312.pyc', 'core.cpython-312.pyc', 'exceptions.cpython-312.pyc', 'helpers.cpython-312.pyc', 'results.cpython-312.pyc', 'testing.cpython-312.pyc', 'unicode.cpython-312.pyc', 'util.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\pyproject_hooks
+dirs
+['_in_process', '__pycache__']
+files
+['_compat.py', '_impl.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\pyproject_hooks\_in_process
+dirs
+['__pycache__']
+files
+['_in_process.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\pyproject_hooks\_in_process\__pycache__
+dirs
+[]
+files
+['_in_process.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\pyproject_hooks\__pycache__
+dirs
+[]
+files
+['_compat.cpython-312.pyc', '_impl.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\requests
+dirs
+['__pycache__']
+files
+['adapters.py', 'api.py', 'auth.py', 'certs.py', 'compat.py', 'cookies.py', 'exceptions.py', 'help.py', 'hooks.py', 'models.py', 'packages.py', 'sessions.py', 'status_codes.py', 'structures.py', 'utils.py', '_internal_utils.py', '__init__.py', '__version__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\requests\__pycache__
+dirs
+[]
+files
+['adapters.cpython-312.pyc', 'api.cpython-312.pyc', 'auth.cpython-312.pyc', 'certs.cpython-312.pyc', 'compat.cpython-312.pyc', 'cookies.cpython-312.pyc', 'exceptions.cpython-312.pyc', 'help.cpython-312.pyc', 'hooks.cpython-312.pyc', 'models.cpython-312.pyc', 'packages.cpython-312.pyc', 'sessions.cpython-312.pyc', 'status_codes.cpython-312.pyc', 'structures.cpython-312.pyc', 'utils.cpython-312.pyc', '_internal_utils.cpython-312.pyc', '__init__.cpython-312.pyc', '__version__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\resolvelib
+dirs
+['compat', '__pycache__']
+files
+['providers.py', 'py.typed', 'reporters.py', 'resolvers.py', 'structs.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\resolvelib\compat
+dirs
+['__pycache__']
+files
+['collections_abc.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\resolvelib\compat\__pycache__
+dirs
+[]
+files
+['collections_abc.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\resolvelib\__pycache__
+dirs
+[]
+files
+['providers.cpython-312.pyc', 'reporters.cpython-312.pyc', 'resolvers.cpython-312.pyc', 'structs.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\rich
+dirs
+['__pycache__']
+files
+['abc.py', 'align.py', 'ansi.py', 'bar.py', 'box.py', 'cells.py', 'color.py', 'color_triplet.py', 'columns.py', 'console.py', 'constrain.py', 'containers.py', 'control.py', 'default_styles.py', 'diagnose.py', 'emoji.py', 'errors.py', 'filesize.py', 'file_proxy.py', 'highlighter.py', 'json.py', 'jupyter.py', 'layout.py', 'live.py', 'live_render.py', 'logging.py', 'markup.py', 'measure.py', 'padding.py', 'pager.py', 'palette.py', 'panel.py', 'pretty.py', 'progress.py', 'progress_bar.py', 'prompt.py', 'protocol.py', 'py.typed', 'region.py', 'repr.py', 'rule.py', 'scope.py', 'screen.py', 'segment.py', 'spinner.py', 'status.py', 'style.py', 'styled.py', 'syntax.py', 'table.py', 'terminal_theme.py', 'text.py', 'theme.py', 'themes.py', 'traceback.py', 'tree.py', '_cell_widths.py', '_emoji_codes.py', '_emoji_replace.py', '_export_format.py', '_extension.py', '_fileno.py', '_inspect.py', '_log_render.py', '_loop.py', '_null_file.py', '_palettes.py', '_pick.py', '_ratio.py', '_spinners.py', '_stack.py', '_timer.py', '_win32_console.py', '_windows.py', '_windows_renderer.py', '_wrap.py', '__init__.py', '__main__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\rich\__pycache__
+dirs
+[]
+files
+['abc.cpython-312.pyc', 'align.cpython-312.pyc', 'ansi.cpython-312.pyc', 'bar.cpython-312.pyc', 'box.cpython-312.pyc', 'cells.cpython-312.pyc', 'color.cpython-312.pyc', 'color_triplet.cpython-312.pyc', 'columns.cpython-312.pyc', 'console.cpython-312.pyc', 'constrain.cpython-312.pyc', 'containers.cpython-312.pyc', 'control.cpython-312.pyc', 'default_styles.cpython-312.pyc', 'diagnose.cpython-312.pyc', 'emoji.cpython-312.pyc', 'errors.cpython-312.pyc', 'filesize.cpython-312.pyc', 'file_proxy.cpython-312.pyc', 'highlighter.cpython-312.pyc', 'json.cpython-312.pyc', 'jupyter.cpython-312.pyc', 'layout.cpython-312.pyc', 'live.cpython-312.pyc', 'live_render.cpython-312.pyc', 'logging.cpython-312.pyc', 'markup.cpython-312.pyc', 'measure.cpython-312.pyc', 'padding.cpython-312.pyc', 'pager.cpython-312.pyc', 'palette.cpython-312.pyc', 'panel.cpython-312.pyc', 'pretty.cpython-312.pyc', 'progress.cpython-312.pyc', 'progress_bar.cpython-312.pyc', 'prompt.cpython-312.pyc', 'protocol.cpython-312.pyc', 'region.cpython-312.pyc', 'repr.cpython-312.pyc', 'rule.cpython-312.pyc', 'scope.cpython-312.pyc', 'screen.cpython-312.pyc', 'segment.cpython-312.pyc', 'spinner.cpython-312.pyc', 'status.cpython-312.pyc', 'style.cpython-312.pyc', 'styled.cpython-312.pyc', 'syntax.cpython-312.pyc', 'table.cpython-312.pyc', 'terminal_theme.cpython-312.pyc', 'text.cpython-312.pyc', 'theme.cpython-312.pyc', 'themes.cpython-312.pyc', 'traceback.cpython-312.pyc', 'tree.cpython-312.pyc', '_cell_widths.cpython-312.pyc', '_emoji_codes.cpython-312.pyc', '_emoji_replace.cpython-312.pyc', '_export_format.cpython-312.pyc', '_extension.cpython-312.pyc', '_fileno.cpython-312.pyc', '_inspect.cpython-312.pyc', '_log_render.cpython-312.pyc', '_loop.cpython-312.pyc', '_null_file.cpython-312.pyc', '_palettes.cpython-312.pyc', '_pick.cpython-312.pyc', '_ratio.cpython-312.pyc', '_spinners.cpython-312.pyc', '_stack.cpython-312.pyc', '_timer.cpython-312.pyc', '_win32_console.cpython-312.pyc', '_windows.cpython-312.pyc', '_windows_renderer.cpython-312.pyc', '_wrap.cpython-312.pyc', '__init__.cpython-312.pyc', '__main__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\tenacity
+dirs
+['__pycache__']
+files
+['after.py', 'before.py', 'before_sleep.py', 'nap.py', 'py.typed', 'retry.py', 'stop.py', 'tornadoweb.py', 'wait.py', '_asyncio.py', '_utils.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\tenacity\__pycache__
+dirs
+[]
+files
+['after.cpython-312.pyc', 'before.cpython-312.pyc', 'before_sleep.cpython-312.pyc', 'nap.cpython-312.pyc', 'retry.cpython-312.pyc', 'stop.cpython-312.pyc', 'tornadoweb.cpython-312.pyc', 'wait.cpython-312.pyc', '_asyncio.cpython-312.pyc', '_utils.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\tomli
+dirs
+['__pycache__']
+files
+['py.typed', '_parser.py', '_re.py', '_types.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\tomli\__pycache__
+dirs
+[]
+files
+['_parser.cpython-312.pyc', '_re.cpython-312.pyc', '_types.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\truststore
+dirs
+['__pycache__']
+files
+['py.typed', '_api.py', '_macos.py', '_openssl.py', '_ssl_constants.py', '_windows.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\truststore\__pycache__
+dirs
+[]
+files
+['_api.cpython-312.pyc', '_macos.cpython-312.pyc', '_openssl.cpython-312.pyc', '_ssl_constants.cpython-312.pyc', '_windows.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\urllib3
+dirs
+['contrib', 'packages', 'util', '__pycache__']
+files
+['connection.py', 'connectionpool.py', 'exceptions.py', 'fields.py', 'filepost.py', 'poolmanager.py', 'request.py', 'response.py', '_collections.py', '_version.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\urllib3\contrib
+dirs
+['_securetransport', '__pycache__']
+files
+['appengine.py', 'ntlmpool.py', 'pyopenssl.py', 'securetransport.py', 'socks.py', '_appengine_environ.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\urllib3\contrib\_securetransport
+dirs
+['__pycache__']
+files
+['bindings.py', 'low_level.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\urllib3\contrib\_securetransport\__pycache__
+dirs
+[]
+files
+['bindings.cpython-312.pyc', 'low_level.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\urllib3\contrib\__pycache__
+dirs
+[]
+files
+['appengine.cpython-312.pyc', 'ntlmpool.cpython-312.pyc', 'pyopenssl.cpython-312.pyc', 'securetransport.cpython-312.pyc', 'socks.cpython-312.pyc', '_appengine_environ.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\urllib3\packages
+dirs
+['backports', '__pycache__']
+files
+['six.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\urllib3\packages\backports
+dirs
+['__pycache__']
+files
+['makefile.py', 'weakref_finalize.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\urllib3\packages\backports\__pycache__
+dirs
+[]
+files
+['makefile.cpython-312.pyc', 'weakref_finalize.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\urllib3\packages\__pycache__
+dirs
+[]
+files
+['six.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\urllib3\util
+dirs
+['__pycache__']
+files
+['connection.py', 'proxy.py', 'queue.py', 'request.py', 'response.py', 'retry.py', 'ssltransport.py', 'ssl_.py', 'ssl_match_hostname.py', 'timeout.py', 'url.py', 'wait.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\urllib3\util\__pycache__
+dirs
+[]
+files
+['connection.cpython-312.pyc', 'proxy.cpython-312.pyc', 'queue.cpython-312.pyc', 'request.cpython-312.pyc', 'response.cpython-312.pyc', 'retry.cpython-312.pyc', 'ssltransport.cpython-312.pyc', 'ssl_.cpython-312.pyc', 'ssl_match_hostname.cpython-312.pyc', 'timeout.cpython-312.pyc', 'url.cpython-312.pyc', 'wait.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\urllib3\__pycache__
+dirs
+[]
+files
+['connection.cpython-312.pyc', 'connectionpool.cpython-312.pyc', 'exceptions.cpython-312.pyc', 'fields.cpython-312.pyc', 'filepost.cpython-312.pyc', 'poolmanager.cpython-312.pyc', 'request.cpython-312.pyc', 'response.cpython-312.pyc', '_collections.cpython-312.pyc', '_version.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\webencodings
+dirs
+['__pycache__']
+files
+['labels.py', 'mklabels.py', 'tests.py', 'x_user_defined.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\webencodings\__pycache__
+dirs
+[]
+files
+['labels.cpython-312.pyc', 'mklabels.cpython-312.pyc', 'tests.cpython-312.pyc', 'x_user_defined.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\_vendor\__pycache__
+dirs
+[]
+files
+['six.cpython-312.pyc', 'typing_extensions.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip\__pycache__
+dirs
+[]
+files
+['__init__.cpython-312.pyc', '__main__.cpython-312.pyc', '__pip-runner__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\pip-24.0.dist-info
+dirs
+[]
+files
+['AUTHORS.txt', 'entry_points.txt', 'INSTALLER', 'LICENSE.txt', 'METADATA', 'RECORD', 'REQUESTED', 'top_level.txt', 'WHEEL']
+root
+.\sabak_9\Lib\site-packages\requests
+dirs
+['__pycache__']
+files
+['adapters.py', 'api.py', 'auth.py', 'certs.py', 'compat.py', 'cookies.py', 'exceptions.py', 'help.py', 'hooks.py', 'models.py', 'packages.py', 'sessions.py', 'status_codes.py', 'structures.py', 'utils.py', '_internal_utils.py', '__init__.py', '__version__.py']
+root
+.\sabak_9\Lib\site-packages\requests\__pycache__
+dirs
+[]
+files
+['adapters.cpython-312.pyc', 'api.cpython-312.pyc', 'auth.cpython-312.pyc', 'certs.cpython-312.pyc', 'compat.cpython-312.pyc', 'cookies.cpython-312.pyc', 'exceptions.cpython-312.pyc', 'help.cpython-312.pyc', 'hooks.cpython-312.pyc', 'models.cpython-312.pyc', 'packages.cpython-312.pyc', 'sessions.cpython-312.pyc', 'status_codes.cpython-312.pyc', 'structures.cpython-312.pyc', 'utils.cpython-312.pyc', '_internal_utils.cpython-312.pyc', '__init__.cpython-312.pyc', '__version__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\requests-2.32.3.dist-info
+dirs
+[]
+files
+['INSTALLER', 'LICENSE', 'METADATA', 'RECORD', 'REQUESTED', 'top_level.txt', 'WHEEL']
+root
+.\sabak_9\Lib\site-packages\urllib3
+dirs
+['contrib', 'http2', 'util', '__pycache__']
+files
+['connection.py', 'connectionpool.py', 'exceptions.py', 'fields.py', 'filepost.py', 'poolmanager.py', 'py.typed', 'response.py', '_base_connection.py', '_collections.py', '_request_methods.py', '_version.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\urllib3\contrib
+dirs
+['emscripten', '__pycache__']
+files
+['pyopenssl.py', 'socks.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\urllib3\contrib\emscripten
+dirs
+['__pycache__']
+files
+['connection.py', 'emscripten_fetch_worker.js', 'fetch.py', 'request.py', 'response.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\urllib3\contrib\emscripten\__pycache__
+dirs
+[]
+files
+['connection.cpython-312.pyc', 'fetch.cpython-312.pyc', 'request.cpython-312.pyc', 'response.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\urllib3\contrib\__pycache__
+dirs
+[]
+files
+['pyopenssl.cpython-312.pyc', 'socks.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\urllib3\http2
+dirs
+['__pycache__']
+files
+['connection.py', 'probe.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\urllib3\http2\__pycache__
+dirs
+[]
+files
+['connection.cpython-312.pyc', 'probe.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\urllib3\util
+dirs
+['__pycache__']
+files
+['connection.py', 'proxy.py', 'request.py', 'response.py', 'retry.py', 'ssltransport.py', 'ssl_.py', 'ssl_match_hostname.py', 'timeout.py', 'url.py', 'util.py', 'wait.py', '__init__.py']
+root
+.\sabak_9\Lib\site-packages\urllib3\util\__pycache__
+dirs
+[]
+files
+['connection.cpython-312.pyc', 'proxy.cpython-312.pyc', 'request.cpython-312.pyc', 'response.cpython-312.pyc', 'retry.cpython-312.pyc', 'ssltransport.cpython-312.pyc', 'ssl_.cpython-312.pyc', 'ssl_match_hostname.cpython-312.pyc', 'timeout.cpython-312.pyc', 'url.cpython-312.pyc', 'util.cpython-312.pyc', 'wait.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\urllib3\__pycache__
+dirs
+[]
+files
+['connection.cpython-312.pyc', 'connectionpool.cpython-312.pyc', 'exceptions.cpython-312.pyc', 'fields.cpython-312.pyc', 'filepost.cpython-312.pyc', 'poolmanager.cpython-312.pyc', 'response.cpython-312.pyc', '_base_connection.cpython-312.pyc', '_collections.cpython-312.pyc', '_request_methods.cpython-312.pyc', '_version.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\Lib\site-packages\urllib3-2.4.0.dist-info
+dirs
+['licenses']
+files
+['INSTALLER', 'METADATA', 'RECORD', 'WHEEL']
+root
+.\sabak_9\Lib\site-packages\urllib3-2.4.0.dist-info\licenses
+dirs
+[]
+files
+['LICENSE.txt']
+root
+.\sabak_9\math_2
+dirs
+['__pycache__']
+files
+['calculator.py', 'formulas.py', '__init__.py']
+root
+.\sabak_9\math_2\__pycache__
+dirs
+[]
+files
+['calculator.cpython-312.pyc', 'formulas.cpython-312.pyc', '__init__.cpython-312.pyc']
+root
+.\sabak_9\my_package
+dirs
+[]
+files
+[]
+root
+.\sabak_9\Scripts
+dirs
+[]
+files
+['activate', 'activate.bat', 'Activate.ps1', 'deactivate.bat', 'normalizer.exe', 'pip.exe', 'pip3.12.exe', 'pip3.exe', 'python.exe', 'pythonw.exe']
