@@ -4,3 +4,4 @@ venv/
 __pycache__/
 lib/
 Scripts/
+db.sqlite3
