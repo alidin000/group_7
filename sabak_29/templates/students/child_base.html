@@ -1,0 +1,50 @@
+{% extends "students/base.html" %}
+
+{% block title %} Bul child html title {% endblock title %}
+
+{% block user_info %}
+    <style>
+        .user-info-container {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin-top: 30px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .user-info-container h1 {
+            text-align: center;
+            color: #333;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .user-info-container ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .user-info-container li {
+            background-color: #f0f0f0;
+            margin: 10px 0;
+            padding: 12px 18px;
+            border-left: 5px solid #007BFF;
+            border-radius: 6px;
+            font-size: 18px;
+            color: #333;
+        }
+    </style>
+
+    <div class="user-info-container">
+        <h1>User Info Detailed</h1>
+
+        <ul>
+            {% for user in users %}
+                <li>{{ user.first_name | upper }} {{ user.last_name | upper }}, {{ user.group | upper }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+{% endblock user_info %}
