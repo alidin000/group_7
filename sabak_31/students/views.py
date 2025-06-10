@@ -1,5 +1,5 @@
 from django.http import HttpResponse
-from django.shortcuts import redirect, render
+from django.shortcuts import get_object_or_404, redirect, render
 
 from students.models import Student
 
@@ -30,5 +30,19 @@ def first_form(request):
             return redirect('get_students')
     else:
         form = StudentForm()
+    context = {"forms": form}
+    return render(request,'students/base.html', context)
+
+
+def edit_student(request, id):
+
+    student = get_object_or_404(Student, id = id)
+
+    form = StudentForm(request.POST or None, instance=student)
+    print(student)
+    if form.is_valid():
+        form.save()
+        return redirect("get_students")
+    
     context = {"forms": form}
     return render(request,'students/base.html', context)

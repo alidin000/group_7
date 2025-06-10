@@ -31,7 +31,15 @@
       background: green;
     }
 
-    .student-photo {
+    .student-age {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 1rem;
+    }
+
+    .student-attendance {
       width: 70px;
       height: 70px;
       border-radius: 50%;
@@ -64,6 +72,9 @@
             <div class="student-info">
                 <div class="student-name">{{ student.name }}</div>
                 <div class="student-email">{{ student.email }}</div>
+                <div class="student-age">{{ student.age }}</div>
+                <div class="student-attendance">{{ student.attendance }}</div>
+                <a href="{% url 'edit_student' id=student.id %}"> Edit </a>
             </div>
         </div>
     {% empty %}
