@@ -2,8 +2,9 @@ from django.contrib import messages
 from django.http import HttpResponse
 from django.shortcuts import redirect, render
 
-from student.forms import TempForm
-
+from student.forms import TempForm, UserRegistratinForm,  UserLoginForm
+from django.contrib.auth import authenticate, login, logout
+from django.contrib.auth.decorators import login_required
 # Create your views here.
 
 
@@ -31,6 +32,8 @@ def temp_view(request):
 
     return render(request, 'templates/temp_template.html', {"form": form, "cookie": temp})
 
+
+@login_required(login_url='login')
 def main_page(request):
 
     count = request.session.get('visit', 0 )
@@ -67,3 +70,57 @@ def temp_cookies(request):
     response.set_cookie('dark_mode', '1', max_age=60)
 
     return response
+
+
+
+# authenticate
+
+def register(request):
+    if request.method == 'POST':
+        form = UserRegistratinForm(request.POST)
+
+        if form.is_valid():
+            user = form.save(commit=False)
+
+            user.set_password(form.cleaned_data['password'])
+
+            user.save()
+
+            messages.success(request, "Siz registration boldunuz! Log in bolunuz!")
+            return redirect('login')
+    else:
+        form = UserRegistratinForm()
+    
+    return render(request, 'templates/register.html', {'form': form})
+
+def login_view(request):
+    
+    if request.method == 'POST':
+        form = UserLoginForm(request.POST)
+
+        if form.is_valid():
+            
+            username = form.cleaned_data['username']
+            password = form.cleaned_data['password']
+
+            user = authenticate(request, username=username, password=password)
+
+            if user is not None:
+                login(request, user) 
+                messages.success(request, "Siz login boldunuz! ")
+                request.session['logged']=True
+                return redirect('main_page')
+            else:
+                messages.error(request, "tuura emes username jana password")
+    else:
+        form = UserLoginForm()
+    return render(request, 'templates/login.html', {'form': form})
+
+def logout_view(request):
+    
+    logout(request)
+    request.session.flush()
+    messages.info(request, "Log out boldunuz")
+
+    return redirect('login')
+
