@@ -1,4 +1,5 @@
 from django.contrib import messages
+from django.http import HttpResponse
 from django.shortcuts import redirect, render
 
 from student.forms import TempForm
@@ -12,6 +13,10 @@ def temp_view(request):
     # session
     request.session['teksheruu'] = "Teksherip atam"
 
+    # cookie
+    temp = request.COOKIES.get('temp', 'jok')
+
+
     if request.method == "POST":
         form = TempForm(request.POST)
         if form.is_valid():
@@ -24,7 +29,7 @@ def temp_view(request):
     else:
         form = TempForm()
 
-    return render(request, 'templates/temp_template.html', {"form": form})
+    return render(request, 'templates/temp_template.html', {"form": form, "cookie": temp})
 
 def main_page(request):
 
@@ -35,10 +40,30 @@ def main_page(request):
     request.session.set_expiry(60)
 
     login = request.session.get('logged', False)
+    big_information = request.session['some_data'] ={
+        'info':[
+            3,4324,23,4,324,32,423,42
+        ]
+    }
 
+    # cookie 
+    temp = request.COOKIES.get('temp', 'jok')
+    temp2 = request.COOKIES.get('browser', 'jok')
     if not login:
         request.session['logged'] = True
     else:
         print(' you are logged')
 
-    return render(request, 'templates/main_page.html', {"count":count + 1, 'logged': login})
+    return render(request, 'templates/main_page.html', {"count":count + 1, 'logged': login, "cookie": temp2})
+
+
+# cookies
+
+def temp_cookies(request):
+    response = HttpResponse("Bizdin cookie response")
+
+    response.set_cookie('temp', 'Hello', max_age=120)
+
+    response.set_cookie('dark_mode', '1', max_age=60)
+
+    return response
