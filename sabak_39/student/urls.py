@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.urls import path
 
-from .views import temp_view, main_page, temp_cookies, register, login_view, logout_view
+from .views import AdminPageView, admin_page_view, list_students, temp_view, main_page, temp_cookies, register, login_view, logout_view
 
 urlpatterns = [
     path('', temp_view, name="temp_form"),
@@ -13,4 +13,13 @@ urlpatterns = [
     path ('register', register, name='register'),
     path ('login', login_view, name='login'),
     path ('logout', logout_view, name='logout'),
+
+    #  admin page
+    path('admin_page/', AdminPageView.as_view(), name='admin_page'),
+    path('admin_page_func/', admin_page_view, name='admin_page_func'),
+
+
+    # students
+    path('list/', list_students, name='list'),
+
 ]

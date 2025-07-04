@@ -5,6 +5,8 @@ from django.shortcuts import redirect, render
 from student.forms import TempForm, UserRegistratinForm,  UserLoginForm
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
+
+from student.models import Student
 # Create your views here.
 
 
@@ -124,3 +126,30 @@ def logout_view(request):
 
     return redirect('login')
 
+
+from django.contrib.auth.decorators import permission_required
+
+
+@permission_required("auth.view_user", raise_exception=True)
+def admin_page_view(request):
+    return render(request,'templates/admin_page.html')
+
+from django.views.generic import TemplateView
+from django.contrib.auth.mixins import PermissionRequiredMixin
+
+class AdminPageView(PermissionRequiredMixin, TemplateView):
+    template_name = 'templates/admin_page.html'
+
+    permission_required = 'auth.view_user'
+
+    raise_exception = True
+
+
+# student list
+
+@permission_required("auth.view_user", raise_exception=True)
+def list_students(request):
+
+    students = Student.objects.all()
+
+    return render(request,'templates/student_list.html', {'students': students})
