@@ -42,8 +42,6 @@ INSTALLED_APPS = [
     'student',
 ]
 
-# Auth ozubuzdun user
-# AUTH_USER_MODEL = 'student.CustomUser'
 
 
 MIDDLEWARE = [

@@ -1,5 +1,5 @@
 from django.contrib import messages
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpResponseForbidden
 from django.shortcuts import redirect, render
 
 from student.forms import TempForm, UserRegistratinForm,  UserLoginForm
@@ -42,7 +42,7 @@ def main_page(request):
 
     request.session['visit'] = count + 1
 
-    request.session.set_expiry(60)
+    request.session.set_expiry(300)
 
     login = request.session.get('logged', False)
     big_information = request.session['some_data'] ={
@@ -111,7 +111,8 @@ def login_view(request):
                 login(request, user) 
                 messages.success(request, "Siz login boldunuz! ")
                 request.session['logged']=True
-                return redirect('main_page')
+                request.session['current_user_name']=username
+                return redirect('profile')
             else:
                 messages.error(request, "tuura emes username jana password")
     else:
@@ -147,9 +148,23 @@ class AdminPageView(PermissionRequiredMixin, TemplateView):
 
 # student list
 
-@permission_required("auth.view_user", raise_exception=True)
+# @permission_required("auth.view_user", raise_exception=True)
 def list_students(request):
+    if request.user.has_perm('student.student_access'):
+        students = Student.objects.all()
 
-    students = Student.objects.all()
+        return render(request,'templates/student_list.html', {'students': students})
+    else:
+        return HttpResponseForbidden("Dostup jok")
+    
 
-    return render(request,'templates/student_list.html', {'students': students})
+
+# user profile view
+@login_required(login_url='login')
+def user_profile(request):
+    from .models import UserProfile , CustomUser
+    from django.shortcuts import get_object_or_404
+    user = get_object_or_404(CustomUser, username=request.user)
+    user_profile = get_object_or_404(UserProfile, user=user)
+
+    return render(request, 'templates/user_profile.html', {'user_profile': user_profile})
