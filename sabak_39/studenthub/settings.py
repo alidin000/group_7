@@ -44,6 +44,8 @@ INSTALLED_APPS = [
 
 
 
+
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -73,6 +75,10 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'studenthub.wsgi.application'
 
+# Media
+import os
+MEDIA_URL  = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases

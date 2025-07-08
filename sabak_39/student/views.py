@@ -2,7 +2,7 @@ from django.contrib import messages
 from django.http import HttpResponse, HttpResponseForbidden
 from django.shortcuts import redirect, render
 
-from student.forms import TempForm, UserRegistratinForm,  UserLoginForm
+from student.forms import TempForm, UserProfileForm, UserRegistratinForm,  UserLoginForm
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
 
@@ -112,7 +112,7 @@ def login_view(request):
                 messages.success(request, "Siz login boldunuz! ")
                 request.session['logged']=True
                 request.session['current_user_name']=username
-                return redirect('profile')
+                return redirect('edit_profile')
             else:
                 messages.error(request, "tuura emes username jana password")
     else:
@@ -159,12 +159,30 @@ def list_students(request):
     
 
 
+from .models import UserProfile , CustomUser
+from django.shortcuts import get_object_or_404
 # user profile view
 @login_required(login_url='login')
 def user_profile(request):
-    from .models import UserProfile , CustomUser
-    from django.shortcuts import get_object_or_404
     user = get_object_or_404(CustomUser, username=request.user)
     user_profile = get_object_or_404(UserProfile, user=user)
 
     return render(request, 'templates/user_profile.html', {'user_profile': user_profile})
+
+@login_required(login_url='login')
+def edit_user_profile(request):
+    user = get_object_or_404(CustomUser, username=request.user)
+    user_profile = get_object_or_404(UserProfile, user=user)
+
+    if request.method == 'POST':
+        form = UserProfileForm(request.POST, request.FILES, instance=user_profile)
+
+        if form.is_valid():
+            form.save()
+            messages.success(request, "Profile update boldu!")
+            return redirect('profile')
+        
+    else:
+        form = UserProfileForm(instance=user_profile)
+    
+    return render(request, 'templates/edit_profile.html', {'form': form})

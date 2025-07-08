@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.urls import path
 
-from .views import AdminPageView, admin_page_view, list_students, temp_view, main_page, temp_cookies, register, login_view, logout_view, user_profile
+from .views import AdminPageView, admin_page_view, edit_user_profile, list_students, temp_view, main_page, temp_cookies, register, login_view, logout_view, user_profile
 
 urlpatterns = [
     path('', temp_view, name="temp_form"),
@@ -25,5 +25,6 @@ urlpatterns = [
 
     # user_profile view
     path('profile/', user_profile, name='profile'),
+    path('profile/edit', edit_user_profile, name='edit_profile'),
 
 ]

@@ -9,5 +9,5 @@ admin.site.register(UserProfile)
 @admin.register(CustomUser)
 class CustomUserAdmin(UserAdmin):
     fieldsets = UserAdmin.fieldsets + (
-        (None, {'fields': ('phone_number', 'tuulgan_kun')}),
+        (None, {'fields': ('phone_number', 'tuulgan_kun', 'profile_picture')}),
     )

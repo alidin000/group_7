@@ -5,6 +5,7 @@ class Student(models.Model):
     name = models.CharField(max_length=35)
     email = models.EmailField(max_length=90)
 
+    profile_picture = models.ImageField(upload_to='profile_pics/', blank=True, null=True)
     def __str__(self):
         return f"{self.name}: {self.email}"
     
@@ -17,6 +18,8 @@ class CustomUser(AbstractUser):
 
     tuulgan_kun = models.DateField(blank=True, null=True)
 
+    profile_picture = models.ImageField(upload_to='profile_pics/', blank=True, null=True)
+
 
 from django.conf import settings
 
@@ -25,6 +28,7 @@ class UserProfile (models.Model):
     user = models.OneToOneField(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
     info = models.TextField(blank=True)
     website = models.URLField(blank=True)
+    profile_picture = models.ImageField(upload_to='profile_pics/', blank=True, null=True)
 
     def __str__(self):
         return f"Profile : {self.user.username} ({self.user.tuulgan_kun})"

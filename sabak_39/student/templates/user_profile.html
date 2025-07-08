@@ -1,39 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>User Profile</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 2rem;
-            background-color: #f2f2f2;
-        }
-        .profile-card {
-            background: white;
-            padding: 1.5rem;
-            border-radius: 8px;
-            max-width: 600px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-        }
-        .profile-card h2 {
-            margin-top: 0;
-        }
-        a {
-            color: #0077cc;
-            text-decoration: none;
-        }
-    </style>
-</head>
-<body>
-    <div class="profile-card">
-        <h2>User Profile</h2>
-        <p><strong>Username:</strong> {{ user_profile.user.username }}</p>
-        <p><strong>Birthdate:</strong> {{ user_profile.user.tuulgan_kun }}</p>
-        <p><strong>Info:</strong><br> {{ user_profile.info|linebreaks }}</p>
-        {% if user_profile.website %}
-            <p><strong>Website:</strong> <a href="{{ user_profile.website }}" target="_blank">{{ user_profile.website }}</a></p>
-        {% endif %}
-    </div>
-</body>
-</html>
+{% extends 'base.html' %}
+
+{% block title %}User Profile{% endblock %}
+
+{% block content %}
+<div class="profile-card">
+    <h2>User Profile</h2>
+    <p><strong>Username:</strong> {{ user_profile.user.username }}</p>
+    <p><strong>Birthdate:</strong> {{ user_profile.user.tuulgan_kun }}</p>
+    <p><strong>Info:</strong><br> {{ user_profile.info|linebreaks }}</p>
+    <img src="{{ user_profile.profile_picture.url }}" alt="Student Photo" class="student-photo">
+    {% if user_profile.website %}
+        <p><strong>Website:</strong> <a href="{{ user_profile.website }}" target="_blank">{{ user_profile.website }}</a></p>
+    {% endif %}
+</div>
+{% endblock %}
+

@@ -74,7 +74,7 @@ class UserRegistratinForm(forms.ModelForm):
 
     class Meta:
         model = User
-        fields = ['username', 'email']
+        fields = ['username', 'email', 'profile_picture', 'tuulgan_kun', 'phone_number']
 
     def clean_password_2(self):
         p1 = self.cleaned_data['password']
@@ -95,3 +95,12 @@ class UserLoginForm(forms.Form):
         label="Пароль",
         widget=forms.PasswordInput
     )
+
+
+# user profile form
+from .models import UserProfile
+class UserProfileForm(forms.ModelForm):
+    class Meta:
+        model = UserProfile
+        fields = ['info', 'website', 'profile_picture']
+    
